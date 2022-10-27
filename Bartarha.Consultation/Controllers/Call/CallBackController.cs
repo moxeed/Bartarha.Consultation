@@ -23,7 +23,7 @@ public class CallBackController : ApiController
 
         if (attempt is null)
         {
-            _logger.LogCritical("Attempt Not Found For VoipCall Back", model);
+            _logger.LogCritical("Attempt Not Found For VoipCall Back SessionId:" + model.SessionId);
             return Ok();
         }
 

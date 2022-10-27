@@ -4,5 +4,9 @@ namespace Bartarha.Consultation.Core.Interfaces;
 
 public interface ICallRepository
 {
-    Task Save(CallRequest request);
+    void Save(CallRequest request);
+    void Save(CallAttempt attempt);
+    IEnumerable<CallRequest> GetTopPendingRequests(int count);
+    int GetPendingRequestsCount();
+    Task CommitAsync();
 }

@@ -8,7 +8,7 @@ public class StartCallResultData
 public class StartCallResult
 {
     public bool Result { get; set; }
-    public IEnumerable<StartCallResultData> Data { get; set; }
+    public IEnumerable<StartCallResultData>? Data { get; set; }
 
     public string? TracingCode
     {

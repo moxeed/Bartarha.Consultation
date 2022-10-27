@@ -21,6 +21,7 @@ public class ApplicationDbContext : DbContext
         }
         
         base.OnModelCreating(modelBuilder);
+        modelBuilder.Ignore<Entity>();
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
 }

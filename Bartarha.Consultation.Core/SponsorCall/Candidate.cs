@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using Bartarha.Consultation.Core.Call;
 using Bartarha.Consultation.Core.Common;
 
@@ -19,13 +20,13 @@ public class Candidate : Entity
 
     private Candidate() { }
 
-    public void Trigger(CallService callService, Sponsor sponsor)
+    public Task Trigger(CallService callService, Sponsor sponsor)
     {
         if (!Project.IsActive)
         {
         }
 
-        callService.QueueCall(sponsor.PhoneNumber
+        return callService.QueueCall(sponsor.PhoneNumber
             , StudentPhoneNumber
             , Project.MaxDurationInSeconds
             , ExternalKey);

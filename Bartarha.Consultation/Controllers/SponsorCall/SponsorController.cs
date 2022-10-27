@@ -32,9 +32,8 @@ public class SponsorController : ApiController
         if (sponsor is null)
             return NotFound("اسپانسر تعریف نشده است");
         
-        candidate.Trigger(_callService, sponsor);
-        await _context.SaveChangesAsync();
-        
+        await candidate.Trigger(_callService, sponsor);
+
         return Ok();
     }
     

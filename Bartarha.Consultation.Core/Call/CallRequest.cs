@@ -8,4 +8,5 @@ public class CallRequest : Entity
     public string CallerPhoneNumber { get; set; } = string.Empty;
     public string CalleePhoneNumber { get; set; } = string.Empty;
     public int MaxDurationInSeconds { get; set; }
+    public ICollection<CallAttempt> Attempts { get; set; } = new List<CallAttempt>();
 }
