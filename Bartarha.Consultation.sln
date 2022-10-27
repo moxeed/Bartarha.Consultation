@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bartarha.Consultation", "Bartarha.Consultation\Bartarha.Consultation.csproj", "{D651D0B0-1DE6-4B8E-B9CE-2EF7C2A0655D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bartarha.Consultation.Infrastructure", "Bartarha.Consultation.Infrastructure\Bartarha.Consultation.Infrastructure.csproj", "{29D0DDFC-BDB6-4C2F-AADC-AB7594F602F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bartarha.Consultation.Core", "Bartarha.Consultation.Core\Bartarha.Consultation.Core.csproj", "{5C900F92-F865-461A-9910-9DFBDD72F9AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{59F59D85-2A6D-4457-97AF-8AE1A444BAFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D651D0B0-1DE6-4B8E-B9CE-2EF7C2A0655D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D651D0B0-1DE6-4B8E-B9CE-2EF7C2A0655D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D651D0B0-1DE6-4B8E-B9CE-2EF7C2A0655D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D651D0B0-1DE6-4B8E-B9CE-2EF7C2A0655D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D0DDFC-BDB6-4C2F-AADC-AB7594F602F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D0DDFC-BDB6-4C2F-AADC-AB7594F602F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D0DDFC-BDB6-4C2F-AADC-AB7594F602F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D0DDFC-BDB6-4C2F-AADC-AB7594F602F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C900F92-F865-461A-9910-9DFBDD72F9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C900F92-F865-461A-9910-9DFBDD72F9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C900F92-F865-461A-9910-9DFBDD72F9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C900F92-F865-461A-9910-9DFBDD72F9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C900F92-F865-461A-9910-9DFBDD72F9AA} = {59F59D85-2A6D-4457-97AF-8AE1A444BAFD}
+		{29D0DDFC-BDB6-4C2F-AADC-AB7594F602F8} = {59F59D85-2A6D-4457-97AF-8AE1A444BAFD}
+	EndGlobalSection
+EndGlobal
